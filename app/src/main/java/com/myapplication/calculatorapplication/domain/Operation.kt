@@ -14,3 +14,7 @@ fun operationFromSymbol(symbol: Char): Operation {
     return Operation.values().find { it.symbol == symbol }
         ?: throw IllegalArgumentException("Invalid symbol")
 }
+
+fun  test(){
+
+}
